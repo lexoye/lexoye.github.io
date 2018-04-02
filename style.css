@@ -1,0 +1,38 @@
+
+/** General Styles **/
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("Img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+	  background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Oswald', serif;
+	  color: white;
+}
+
+/** Welcome Block **/
+.welcome {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 320px) {
+    .welcome .logo {
+        width: 290px;
+    }
+}
+
+/** Portfolio links **/
+.portfolio {
+    text-align: center;
+}
+.portfolio > a > img {
+    height: 30px;
+    margin: 0 10px;
+}
