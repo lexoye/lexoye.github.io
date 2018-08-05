@@ -3,7 +3,7 @@
   <head>
      <meta charset="UTF-8">
      <title>Lexo Ye | Graphic & Web Design</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
      <link rel="icon" href="img/favicon.png">
 	   <link rel="stylesheet" type="text/css" href="style.css">
 	   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -15,16 +15,29 @@
           <header>
     	       <img class="logo" src="img/lexoye-logo.png"/>
     	    </header>
-  	      <h1>Pronto estaré de vuelta <br/> I'll be back soon </h1>
-  		    <h3>Te invito a visitar mientas tanto </br> Meanwhile you can visit </h3>
-  			  <div class="portfolio">
-  			     <a href="https://www.behance.net/lexoye" target="_blank">
-                 <img src="img/behance-logo.svg"/>
-             <a>
-  			     <a href="https://github.com/lexoye" target="_blank">
-                 <img src="img/github-logo.svg"/>
-             </a>
-  	      </div>
+          <article class="">
+            <h1>Pronto estaré de vuelta <br/> I'll be back soon </h1>
+    		    <h3>Te invito a visitar mientas tanto </br> Meanwhile you can visit </h3>
+    			  <section class="portfolio">
+    			     <a href="https://www.behance.net/lexoye" target="_blank">
+                   <img src="img/behance-logo.svg"/>
+               <a>
+    			     <a href="https://github.com/lexoye" target="_blank">
+                   <img src="img/github-logo.svg"/>
+               </a>
+    	      </section>
+            <!-- contact form : BEGIN -->
+            <section>
+              <form action="https://formspree.io/alejandro@lexoye.me" method="POST">
+                <label class="fm_name" for="_replyto">Email:</label>
+                <input type="email" name="_replyto">
+                <label class="fm_name" for="message">Mensaje:</label>
+                <input type="text" name="message">
+                <input type="submit" value="Send">
+              </form>
+            </section>
+            <!-- contact form : END -->
+          </article>
   	  </div>
 
   </body>
