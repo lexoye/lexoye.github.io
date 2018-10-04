@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head>|
   <meta charset="UTF-8">
   <html lang="en">
   <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
@@ -13,12 +13,13 @@
 </head>
 <body>
     <article class="card">
-      <section class="card_image">
+      <section class="card_intro">
+          <img class="card_intro_logo" src="img/lexoye_logo.svg" alt="Lexo Ye">
+          <h1 class="card_intro_title">I'll be back soon</h1>
       </section>
       <section class="card_content">
           <!-- Card Title and Info -->
-          <h1 class="title">I'll be back soon</h1>
-          <p class="caption">Meanwhile you can visit</p>
+          <p class="card_content_caption">Meanwhile visit</p>
           <!-- Social Media Links -->
           <div class="social-media">
               <div class="social-media_icon">
@@ -72,12 +73,12 @@
                   </svg>
               </div>
           </div>
-          <p class="caption">or drop a line</p>
+          <p class="card_content_caption">or drop a line</p>
           <!-- Contact form -->
           <form class="card_form" action="">
-              <input type="email" name="" id="" placeholder="Email" required>
-              <input type="text" name="" id="" placeholder="Message">
-              <input type="submit" value="Send">
+                <input type="email" name="email" id="" placeholder="Email" required>
+                <textarea placeholder="Your message"></textarea>
+                <input type="submit" value="Send">
           </form>
       </section>
     </article>
